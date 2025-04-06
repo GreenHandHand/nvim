@@ -1,0 +1,23 @@
+{
+    "Starter Template": {
+        "prefix": "launch",
+        "body": [
+            "{",
+            "\t\"version\": \"0.2.0\",",
+            "\t\"configurations\": [",
+            "\t\t{",
+            "\t\t\t\"name\": \"Launch file\",",
+            "\t\t\t\"type\": \"codelldb\",",
+            "\t\t\t\"request\": \"launch\",",
+            "\t\t\t\"program\": \"\\${workspaceFolder}/${1:executable}\",",
+            "\t\t\t\"args\": [],",
+            "\t\t\t\"cwd\": \"\\${workspaceFolder}\",",
+            "\t\t\t\"stopOnEntry\": false,",
+            "\t\t\t\"environment\": {},",
+            "\t\t\t\"externalConsole\": false",
+            "\t\t}",
+            "\t]",
+            "}"
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "snip1": {
+        "prefix": "fcin",
+        "body": [
+            "FILE *stream = freopen(\"${1:input.txt}\", \"r\", stdin);"
+        ],
+        "description": "redirects stdin to input.txt"
+    }
+}
