@@ -18,7 +18,7 @@ vim.g.lazyvim_python_ruff = "ruff"
 if vim.g.neovide then
     -- Put anything you want to happen only in Neovide here
     -- vim.o.guifont = "JetBrainsMono Nerd Font,LXGW WenKai Mono:h12"
-    vim.o.guifont = "Maple Mono Normal NF,LXGW WenKai Mono:h12"
+    vim.o.guifont = "Maple Mono NF CN,LXGW WenKai Mono:h22"
     vim.g.neovide_opacity = 1
     vim.g.neovide_normal_opacity = 1
     vim.g.neovide_show_border = true
